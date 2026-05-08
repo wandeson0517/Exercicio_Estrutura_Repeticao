@@ -48,7 +48,7 @@ while True:
     if q4 == "D":
         questoes_certas += 1 
         
-    nota = ((questoes_certas / 4 * 10))
+    nota = ((questoes_certas / 4 )* 10)
     print(f"Questões Corretas: {questoes_certas}")
     print(f"Nota: {nota:.1f}")
 
@@ -67,4 +67,5 @@ while True:
 media_notas = soma_notas / qtd_provas
 print(f"Aluno com maior numeros de acertos: {nome_maior_acertos}")
 print(f"Aluno com menor numeros de acertos: {nome_menor_acertos}")
-print(f"Provas realizadas: ")
+print(f"Provas realizadas: {qtd_provas}")
+print(f"Media: {media_notas}")

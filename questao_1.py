@@ -8,11 +8,11 @@
 
 
 while True:
-    num = int(input("Informa uma nota enter 0 a 10: "))
+    num = int(input("Informa uma nota entre 0 a 10: "))
     if num < 0 or num > 10:
-        print(f"O numero informado {num} é Invalido! Tente novamente.")
+        print(f"O numero informado n°{num} é Invalido! Tente novamente.")
         
     else:
-        print(f"O numero informado {num} é  Valido!")
+        print(f"O numero informado n°{num} é  Valido!")
         break
 print("---Fim do Programa---")
